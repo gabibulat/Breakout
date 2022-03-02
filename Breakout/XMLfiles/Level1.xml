@@ -1,0 +1,48 @@
+<Level
+RowCount="30"
+ColumnCount="14"
+RowSpacing="20"
+ColumnSpacing="20"
+BackgroundTexture="Images/background.png"
+>
+
+<BrickTypes>
+<!-- Soft Brick -->
+<BrickType
+Id="S"
+Texture="Images/soft.png"
+HitPoints="1"
+HitSound="Sounds/soft.wav"
+BreakSound="Sounds/break.wav"
+BreakScore="50" />
+
+<!-- Medium Brick -->
+<BrickType
+Id="M"
+Texture="Images/medium.png"
+HitPoints="2"
+HitSound="Sounds/medium.wav"
+BreakSound="Sounds/break.wav"
+BreakScore="100" />
+
+
+<!-- Impenetrable Brick -->
+<BrickType
+Id="I"
+Texture="Images/Impenetrable.png"
+HitPoints="Infinite"
+HitSound="Sounds/impenetrable.wav" 
+/>
+</BrickTypes>
+
+<Bricks>
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ S S M M M M M S S _ _
+_ _ _ S S M M M S S _ _ _
+_ _ _ _ S S M S S _ _ _ _
+_ _ _ _ _ S S S _ _ _ _ _ 
+</Bricks>
+
+</Level>
