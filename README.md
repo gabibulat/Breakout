@@ -1,6 +1,6 @@
 # Breakout
  
- Breakout game made in C++ using SDL2 and TinyXML.
+ Breakout game made in C++ using SDL2 and TinyXML2.
  Levels are loaded from XML file in format : 
 			
 			<Level
